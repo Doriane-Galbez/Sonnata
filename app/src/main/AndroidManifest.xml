@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.sonnata.sonnata">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_sonnata_v2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_sonnata_v2_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CoursSupReprises"></activity>
+        <activity android:name=".CoursSupArticulations" />
+        <activity android:name=".CoursSUPVarTemp" />
+        <activity android:name=".CoursSupTempi" />
+        <activity android:name=".CoursSupNuances" />
+        <activity android:name=".CoursSupSilences" />
+        <activity android:name=".CoursSupMesure" />
+        <activity android:name=".CoursSupTons" />
+        <activity android:name=".MenuCours" />
+        <activity android:name=".CoursSupAlterations" />
+        <activity android:name=".MiniPiano" />
+        <activity android:name=".rythmeCours" />
+        <activity android:name=".RythmeExoDictee" />
+        <activity android:name=".RythmeExoMetronome" />
+        <activity android:name=".Rythme" />
+        <activity android:name=".MenuJouer" />
+        <activity android:name=".Metronome" />
+        <activity android:name=".EcouteNoteExos" />
+        <activity android:name=".EcouteNoteCours" />
+        <activity android:name=".EcouteNote" />
+        <activity android:name=".ReadNoteCours" />
+        <activity android:name=".ReadNoteExos" />
+        <activity android:name=".ReadNote" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
