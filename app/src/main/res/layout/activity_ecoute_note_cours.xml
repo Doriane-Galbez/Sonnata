@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EcouteNoteCours">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/texteEcouteNoteIntro" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAsigrave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAsigrave"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_si_grave" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAdograve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DO"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAdograve"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_do_grave" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAregrave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RE"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAregrave"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_re_grave" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAmigrave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="MI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAmigrave"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_mi_grave" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAfagrave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="FA"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAfagrave"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_fa_grave" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAsolgrave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SOL"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAsolgrave"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_sol_grave" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAlagrave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="LA"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAlagrave"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_la_grave" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAsimed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAsimed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_si_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAdomed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="DO"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAdomed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_do_med" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAremed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="RE"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAremed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_re_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAmimed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="MI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAmimed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_mi_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAfamed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="FA"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAfamed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_fa_med" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAsolmed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SOL"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAsolmed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_sol_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAlamed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="LA"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAlamed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_la_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAsiaigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAsiaigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_si_aigu" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutFAdoaigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="DO"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutFAdoaigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_fa_do_aigu" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLremed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="RE"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLremed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_re_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLmimed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="MI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLmimed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_mi_med" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLfamed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="FA"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLfamed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_fa_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLsolmed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SOL"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLsolmed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_sol_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLlamed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="LA"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLlamed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_la_med" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLsimed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLsimed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_si_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLdomed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="DO"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLdomed"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_do_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLreaigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="RE"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLreaigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_re_aigu" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLmiaigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="MI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLmiaigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_mi_aigu" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLfaaigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="FA"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLfaaigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_fa_aigu" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLsolaigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SOL"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLsolaigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_sol_aigu" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLlaaigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="LA"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLlaaigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_la_aigu" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLsiaigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLsiaigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_si_aigu" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLdoaigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="DO"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLdoaigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_do_aigu" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLresuraigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="RE"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLresuraigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_re_suraigu" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLmisuraigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="MI"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLmisuraigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_mi_suraigu" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texteBoutSOLfasuraigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="FA"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/imBoutSOLfasuraigu"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cle_de_sol_fa_suraigu" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/boutonRetour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="Retour" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

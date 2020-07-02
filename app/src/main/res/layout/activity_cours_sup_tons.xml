@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoursSupTons">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewCours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/texteCoursTons" />
+
+            <TextView
+                android:id="@+id/textViewDoMaj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texteCoursTonsGdoMaj" />
+
+            <ImageView
+                android:id="@+id/imageViewGdoMaj"
+                android:layout_width="match_parent"
+                android:layout_height="121dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/gamme_do_maj" />
+
+            <TextView
+                android:id="@+id/textViewLamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texteCoursTonsGlamin" />
+
+            <ImageView
+                android:id="@+id/imageViewGLamin"
+                android:layout_width="match_parent"
+                android:layout_height="121dp"
+                app:srcCompat="@drawable/gamme_la_min" />
+
+            <TextView
+                android:id="@+id/textViewSensible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textColor="#CD3939"
+                android:text="@string/texteCoursTonsSensible" />
+
+            <TextView
+                android:id="@+id/textViewFin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="@string/texteCoursTonsDeg" />
+
+            <Button
+                android:id="@+id/buttonRetour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Retour au menu principal" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

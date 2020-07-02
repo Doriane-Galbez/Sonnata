@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiniPiano">
+
+    <ImageView
+        android:id="@+id/imageViewMI"
+        android:layout_width="38dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewRE"
+        app:srcCompat="@drawable/piano_touche_blanche"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewLA"
+        android:layout_width="38dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSO"
+        app:srcCompat="@drawable/piano_touche_blanche"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imageViewFA"
+        android:layout_width="38dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewMI"
+        app:srcCompat="@drawable/piano_touche_blanche"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewSO"
+        android:layout_width="38dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewFA"
+        app:srcCompat="@drawable/piano_touche_blanche"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imageViewSI"
+        android:layout_width="38dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewLA"
+        app:srcCompat="@drawable/piano_touche_blanche"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewDO2"
+        android:layout_width="38dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSI"
+        app:srcCompat="@drawable/piano_touche_blanche"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imageViewRE"
+        android:layout_width="38dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDO1"
+        app:srcCompat="@drawable/piano_touche_blanche"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imageViewDO1"
+        android:layout_width="38dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="50dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/piano_touche_blanche" />
+
+    <ImageView
+        android:id="@+id/imageViewSOd"
+        android:layout_width="28dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="140dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSO"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSO"
+        app:srcCompat="@drawable/piano_touche_noire" />
+
+    <ImageView
+        android:id="@+id/imageViewLAd"
+        android:layout_width="28dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="140dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewSI"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSI"
+        app:srcCompat="@drawable/piano_touche_noire" />
+
+    <ImageView
+        android:id="@+id/imageViewFAd"
+        android:layout_width="28dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="140dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewSO"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSO"
+        app:srcCompat="@drawable/piano_touche_noire" />
+
+    <ImageView
+        android:id="@+id/imageViewREd"
+        android:layout_width="28dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="140dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewRE"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toEndOf="@+id/imageViewRE"
+        app:srcCompat="@drawable/piano_touche_noire" />
+
+    <ImageView
+        android:id="@+id/imageViewDOd"
+        android:layout_width="28dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="140dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewDO1"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDO1"
+        app:srcCompat="@drawable/piano_touche_noire" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupOctaves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewDO2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octave 1" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octave 2" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octave 3" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octave 4" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octave 5" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octave 6" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octave 7" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonRetour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Retour"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/radioGroupOctaves"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroupOctaves"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radioGroupOctaves" />
+
+    <TextView
+        android:id="@+id/textViewFreq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=" "
+        app:layout_constraintEnd_toStartOf="@+id/radioGroupOctaves"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNote" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

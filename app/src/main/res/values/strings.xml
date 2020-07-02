@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Sonn\'ata</string>
+    <string name="textePopupBienvenu"><b>Bienvenue dans l\'appli Sonn\'ata !</b>
+        \nSonn\'ata est une application pour vous aider à améliorer votre lecture de partition. Nous vous proposons différents mini-jeux pour vous entraîner à lire et à reconnaître les notes
+        mais également pour vous entraîner à garder le rythme ! Pour vous aider chaque mini-jeu est accompagné d\'un petit cours pour vous donner les bases nécessaires. Amusez vous bien !</string>
+
+    <string name="textePopupInfoApp">L\'application Sonn\'ata a été développée dans le cadre d\'un projet mené par quatre étudiants en école d\'ingénieur. Ils ont eu un peu plus d\'un mois pour la réaliser.
+    Cette application a été présentée à la Journée des Projets 2020 à l\'ESIEE Paris. Dans les conditions de la pandémie du Covid-19, le développement de Sonn\'ata a entièrement été réalisé en distanciel, chaque étudiant chez lui.
+    \n\nPourquoi Sonn\'ata ? \nAujourd\’hui de plus en plus de personnes se lancent dans l\’apprentissage de la musique en autodidacte. Cependant, ils se retrouvent vite limités par leur absence de connaissances musicales.
+        Ils sont régulièrement obligés de se contenter des tablatures pour jouer un morceau. Cela réduit grandement les morceaux qu\’ils peuvent lire et donc jouer. Dans ce contexte, l\’objectif de notre application est
+        de permettre à une personne d\'apprendre la lecture de partition et principalement de s\'entraîner pour acquérir les bases de la musique en lecture et reconnaissance de notes ainsi qu\'en maîtrise du rythme.
+        \n\n\nContactez-nous :\n<u>projet.sonnata@gmail.com</u>\n<u>www.projet-sonnata.weebly.com</u>\n\n\n\n</string>
+
+    <string name="texteScore">Score : %1$d / %2$d</string>
+
+    <string name="texteCles">Il existe 7 noms de notes différents. Progressivement on retrouve le DO puis le RE puis le MI, FA, SOL, LA, SI et à nouveau le DO.
+        \nLes clés sont très importantes ! Elles sont toujours placées au début de la portée (les 5 lignes horizontales).Les clés indiquent comment il faut lire les notes</string>
+    <string name="texteSOL1"><b>La clé de SOL </b>
+        \nLa clé de SOL est la clé permettant d\'écrire les notes les plus aiguës. Les notes sont placées de la manière suivante.</string>
+    <string name="texteSOL2">En continuant dans le même ordre on peut continuer à monter et à descendre. Comme on peut le voir ci-dessous pour continuer à monter on peut ajouter des lignes supplémentaires.</string>
+    <string name="texteFA1"><b>La clé de FA </b>
+        \nLa clé de FA est la clé permettant d\'écrire les notes les plus graves. On remarquera que les notes sont toujours dans le même ordre. Les notes sont placées de la manière suivante.</string>
+    <string name="texteFA2">On applique le même principe que pour la clé de SOL pour continuer à monter ou à descendre.</string>
+    <string name="texteFASOL">Mais quel est le lien entre la clé de FA et la clé de SOL ?
+        Eh bien l\'une est simplement la continuité de l\'autre ! On remarquera au passage que les hampes des notes (c\'est-à-dire les barres verticales des notes) peuvent être vers le bas ou vers le haut.
+        Il s\'agit simplement d\'une écriture, on préfère les écrire le plus vers la portée. Ainsi, elle est dirigée vers le bas quand la note est aiguë et vers le haut quand la note descend dans les graves.</string>
+
+    <string name="texteEcouteNoteIntro">Cliquez sur une note pour l\'écouter. (Remarque : attention au volume sonore des dernières notes)</string>
+
+    <string name="texteRythmeIntro">Le rythme attribué à une note permet de définir la durée de la note. La durée des notes est exprimée en temps. Battre la pulsation (ou le tempo) signifie marquer (par un geste ou un son)
+        les temps en binaire et le demi temps en ternaire.</string>
+    <string name="texteRythmeBinaire"><b>Le binaire</b>\nEn binaire il y a une pulsation toutes les deux croches.</string>
+    <string name="texteRythmeTernaire"><b>Le ternaire</b>\nEn ternaire il n\'y a plus une pulsation toutes les deux croches mais toutes les trois croches.</string>
+    <string name="texteRythmeCroches">En binaire comme en ternaire on peut continuer de subdiviser les durées en ajoutant une barre. (Remarque : on divise par 2 à chaque fois)</string>
+    <string name="texteRythmePoints">À l\'inverse on peut allonger un rythme. Pour cela il existe le point. Il se place juste après la note et ajoute au rythme la moitié de sa valeur initiale.</string>
+    <string name="texteRythmeEcoutez">Ecoutez quelques rythmes sur la note du LA.</string>
+
+    <string name="textePopupStartTimer"><b>Entraînement</b>\nDes notes vont apparaitre aléatoirement, vous aurez 1 minute et 30 secondes pour donner un maximum de bonnes réponses et obtenir le meilleur score</string>
+    <string name="textePopupEndTimer"><b>Fin du temps imparti !</b>\nLancez une autre partie et tentez d\'améliorer votre score ! Testez aussi d\'autres niveaux !</string>
+    <string name="textePopupScoreParfait"><b>Fin du temps imparti !</b>\nWoaw c\'est un score parfait ! Félicitation, maintenant essayez d\'aller toujours plus vite pour trouver encore plus de notes !</string>
+
+    <string name="textePopupStartEcouteNote"><b>Entraînement</b>\nDes notes vont être jouées aléatoirement, vous aurez 2 minutes pour donner un maximum de bonnes réponses et obtenir le meilleur score</string>
+    <string name="title_activity_menu_jouer">MenuJouer</string>
+
+    <string name="texteMenuCours"><b>Pour aller plus loin</b>\nVous trouverez ci-dessous un ensemble de cours qui vous permettra d\'aller plus loin dans la lecture de partition.
+    \n<i><u>Conseil</u> : Ne lisez pas tout d\'un seul coup. Pour apprendre efficacement il vaut mieux un peu mais régulièrement.</i></string>
+
+    <string name="texteCoursAlterations"><b>Les altérations</b>\n\nIl y a trois altérations :\n
+    \n\t• le <b>bémol \"♭\"</b>\nIl baisse la note devant laquelle il est placé. La note s\'appelle alors "MI bémol" si c\'est un MI par exemple. La note sera diminuée d\'un demi-ton.\n
+    \n\t• le <b>dièse \"#\"</b>\nIl augmente la note devant laquelle il est placé. La note s\'appelle alors "FA dièse" si c\'est un FA par exemple. La note sera augmentée d\'un demi-ton.\n
+    \n\t• le <b>bécarre \"♮\"</b>\nIl annule l\'effet du dièse ou du bémol.\n
+    \nLorsque la note est suivie d\'un dièse ou d\'un bémol on dit qu\'elle est altérée. Dans le cas contraire on dit qu\'elle est au naturel.\n
+    \n
+    \nOn trouve deux type d\'altérations :\n
+        \n\t• les altérations dites \"à la clé\". Elles forment ce qu\'on appelle <b>l\'armure</b>. Elles sont placées juste après la clé. Elles sont placées à la hauteur de la note à altérer.
+        \n<u>Exemple</u> : Si un bémol est placé à la hauteur du SI à l\'armure, alors <u>TOUS</u> les SI seront bémols (sauf indication contraire comme un bécarre).
+        \n<i><u>Remarque importante</u> : à l\'armure il y a un ordre pour mettre les # et les ♭.
+        \n• pour les bémols : SI MI LA RE SOL DO FA
+        \n• pour les dièses : FA DO SOL RE LA MI SI (c\'est l\'ordre inverse de celui des bémols)
+        \nS\'il y a trois bémols ce sera forcément SI MI LA, <b><u>jamais</u></b> MI SOL FA par exemple. Et on commence <u>toujours</u> par SI pour les bémols et FA pour les dièses.</i>\n
+        \n\t• les altérations dites \"accidentelles\". Elles sont placées devant la note à altérer. Elles ne sont valables que pour le reste de la mesure (une mesure est terminée par une barre verticale).
+    \n\nVoyons un exemple :
+    </string>
+    <string name="texteCoursAlterationsFin"><b>À l\'armure il y a soit des bémols soit des dièses. Il n\'y a jamais les deux à la fois.</b></string>
+
+    <string name="texteCoursTons"><b>Les tons</b>\n\nIl s\'agit de l\'intervalle sonore entre deux notes. Pour faire simple on peut parler de ton et de demi-ton et dire que deux demi-tons forment un ton.
+    \nLes tons et demi-tons ont des positions précises sur la gamme. Il y a une différence entre la gamme majeure et la gamme mineure.
+    <i>(Nous ne rentreront pas dans le détail de la différence entre le majeur et le mineur)</i></string>
+    <string name="texteCoursTonsGdoMaj"><b>Les tons sur les gammes Majeures.</b> Exemple de la gamme de DO Majeur.</string>
+    <string name="texteCoursTonsGlamin"><b>Les tons sur les gammes mineures.</b> Exemple de la gamme de LA mineur (il s\'agit de la relative mineure de la gamme de DO Majeur).</string>
+    <string name="texteCoursTonsSensible">Attention en mineur la septième note de la gamme (la sensible) doit être augmentée d\'un demi-ton. Donc on l\'altère d\'un dièse.</string>
+    <string name="texteCoursTonsDeg">Les chiffres indiqués ici sous les notes sont appelés les degrés. Les degrés ont des noms spécifiques :
+    \n\t• I : la tonique
+    \n\t• II : la sus-tonique
+    \n\t• III : la médiante
+    \n\t• IV : la sous-dominante
+    \n\t• V : la dominante
+    \n\t• VI : la sus-dominante
+    \n\t• VII : la sensible</string>
+
+    <string name="texteCoursMesDeb"><b>La mesure</b>\n\nUne partition est divisée en mesures. Une mesure regroupe plusieurs temps.
+    Elle est délimitée par des barres verticales. </string>
+    <string name="texteCoursMesSuite">Le nombre de temps par mesure est donné au début de la partition <u>juste après l\'armure</u>
+    Il peut toutefois être modifié ensuite.Les types de mesures sont indiqués par un chiffrage composé de deux chiffres.</string>
+    <string name="texteCoursMesC">Parfois la mesure n\'est pas donnée par un chiffre mais par un symbole. À part le chiffrage on ne peut trouver que deux symboles :
+    \n• le C qui remplace le 4/4
+    \n• le C barré qui remplace le 2/2. 2/2 indique qu\'il y a deux temps par mesure et que l\'unité de temps est la blanche et non plus la noire.
+        Ainsi avec un C barré ou un 2/2, une blanche dure un temps et une noire un demi-temps par exemple (pour résumer, on divise toutes les durées par 2).</string>
+    <string name="texteCoursMesBarres">Pour marquer la fin d\'un thème on peut trouver une double barre. Cela n\'a pas d\'incidence particulière sur la lecture mais cela peut aider le musicien à se repérer dans la partition.
+    En revanche à la fin de chaque morceaux on retrouve une double barre dont la deuxième barre est plus large que la première.</string>
+
+    <string name="texteCoursSilencesDeb"><b>Les silences</b>\n\nComme son nom l\'indique, lors d\'un silence on marque ... un silence ! Comme une note, un silence a une durée.
+    Suivant son symbole sa durée varie.</string>
+    <string name="texteCoursSilencesSuite">On peut continuer à ajouter des barres pour diviser encore la durée.</string>
+    <string name="texteCoursSilencesMnemo"><i>Moyen mnémotechnique pour différencier la pause et la demi-pause : \"La pause n\'est jamais posée\" ("la demi-pause est posée sur la ligne centrale")</i></string>
+    <string name="texteCoursSilencesFin">Dans une partition il existe une indication précisant qu\'il faut attendre plusieurs mesures en silence.</string>
+    <string name="texteCoursSilencesAttente">Le nombre au dessus indique le nombre de mesures à attendre en silence. Ce nombre peut aller de 1 à un nombre potentiellement infini.</string>
+
+    <string name="texteCoursNuancesDeb"><b>Les nuances</b>\n\nLes nuances indiquent la \"force\" avec laquelle il faut jouer la partition. Suivant les nuances un passage doit être joué fort ou peu/pas fort (c\'est-à-dire doux).
+    Les nuances sont indiquées sous la portée. Elles sont valables jusqu\'au prochain changement de nuance. Elles sont symbolisées par des lettres.
+    \n\t• pp = pianissimo , très doux
+    \n\t• p  = piano      , doux
+    \n\t• mp = mezzopiano , un peu doux
+    \n\t• mf = mezzoforte , un peu fort
+    \n\t• f  = forte      , fort
+    \n\t• ff = fortissimo , très fort
+    \n<i>Il s\'agit de termes italiens, les \"e\" sont donc prononcés \"é\".</i></string>
+    <string name="texteCoursNuancesProg">Les nuances précédentes sont immédiates mais on peut également avoir des nuances progressives. Pour cela il y a le crescendo et le decrescendo.
+    Ils ont un effet sur la nuance des notes situées au-dessus de leurs symboles. À la place de leurs symboles ils peuvent parfois s\'écrire <i>\"cresc.......\"</i> pour crescendo et <i>\"decresc.......\"</i> pour decrescendo.</string>
+    <string name="texteCoursNuancesFin">À l\'inverse, il y a des nuances très soudaines.
+    \n• sfz = sforzando   , fort d\'un seul coup pendant un temps court
+    \n• fp  = forte piano , attaquer forte puis descendre piano juste après
+    \n• pf  = piano forte , l\'inverse du forte piano</string>
+
+    <string name="texteCoursTempiDeb"><b>Le tempo (les tempi)</b>\n\nLe tempo est la vitesse avec laquelle il faut jouer la partition.
+        Il peut être indiqué par un terme spécifique (\"lento\" par exemple) et/ou par une expression type ♩=120 (on dit 120 à la noire).</string>
+    <string name="texteCoursTempiTermes">Les termes spécifiques, du plus lent au plus rapide, sont les suivants :
+        \n\t• Largo       = Large(=lent)
+        \n\t• Lento       = Lent
+        \n\t• Adagio      = Adagio
+        \n\t• Andante     = Allant
+        \n\t• Moderato    = Modéré
+        \n\t• Allegretto  = Assez allègre
+        \n\t• Allegro     = Allègre, gai
+        \n\t• Vivace      = Vif
+        \n\t• Presto      = Rapide
+        \n\t• Prestissimo = Très rapide
+    </string>
+    <string name="texteCoursTempiFin">Le tempo restera le même jusqu\'à la prochaine indication de tempo.</string>
+
+    <string name="texteCoursVarTemp"><b>Les variations de tempo</b>\n\nDans un morceau on peut être amené à ralentir ou accélérer le tempo.
+    \n\n<u>Pour ralentir</u>
+        \n\t• allarg. : allargando  =  en élargissant
+        \n\t• rall.   : rallentedo  =  en ralentissant
+        \n\t• rit.    : ritenuto    =  retenu
+    \nDans une partition on peut retrouver ces termes au-dessus ou en-dessous de la portée. Il s\'agit d\'un ralenti progressif dont l\'arrêt est indiqué par un changement de tempo.
+    \n
+    \n<u>Pour accélérer</u>
+        \n\t• animato     = animé
+        \n\t• accelerando = en accélérant (abrégé <i>accel.</i>)
+        \n\t• più mosso   = plus agité
+        \n\t• più moto    = plus de mouvement
+    \nDe même que pour le ralentissement, ces termes peuvent être au-dessus ou en-dessous de la portée. L\'accelerando fonctionne exactement comme la rallentado (simplement il provoque une accélération au lieu d\’un ralentissement).
+    Les autres termes ci-dessus sont à traiter comme de nouveaux tempi. Il s\'agira de tempi un peu plus rapides que le tempo qui les précède.
+    \n
+    \n<u>Pour revenir au tempo initial</u>
+        \n\t• tempo primo (on trouve aussi tempo I° ou T°I°)
+        \n\t• a tempo
+    \nCes deux termes indiquent que le tempo devient le premier tempo annoncé sur la partition (donc tout au début). Ils sont placés au-dessus de la portée comme un tempo.</string>
+
+    <string name="texteCoursArticulationsDeb"><b>L\'articulation</b>\n\nEn plus de la nuance et du rythme il faut prendre en compte un autre élément : l\'articulation.
+        Elle précise comment la note doit être faite par rapport à l\'attaque (c\'est-à-dire au début de la note).</string>
+    <string name="texteCoursArticulationsPiq"><u>Le piqué</u>\nLe point au-dessus (ou en-dessus) d\'une note signifie qu\'elle doit être courte (on ne va pas totalement jusqu\'au bout de sa durée). La note est dite piquée.</string>
+    <string name="texteCoursArticulationsLie"><u>Le lié</u>\nUne courbe au-dessus (ou en-dessous) de <u>plusieurs notes</u> signifie qu\'il ne faut pas marquer l\'attaque.
+    Le passage d\'une note à l\'autre doit être doux/lisse. On dit que les notes sont liées.</string>
+    <string name="texteCoursArticulationsLieSuite"><i>Quand deux notes à la même hauteur sont liées on n\'entend pas qu\'il y a deux notes mais une seule.
+        Par exemple, si deux MI croche sont liés on a l\'impression d\entendre un seul MI noire. Cela est très pratique pour faire continuer le son d\'une note d\'une mesure à l\'autre.</i></string>
+    <string name="texteCoursArticulationsTenuto"><u>Le tenuto</u>\nLe trait au-dessus (ou en-dessous) d\'une note signifie qu\'il faut jouer la note jusqu\'au maximum de sa durée. C\'est l\'inverse du piqué.</string>
+    <string name="texteCoursArticulationsTenutoSuite"><i>Sur plusieurs notes il peut être noté de la manière suivante :</i></string>
+    <string name="texteCoursArticulationsPoint"><u>Cas particulier</u>\nLorsqu\'on trouve un point et un lié sur <b>une seule note</b> il s\'agit d\'un <u><b>point d\'orgue</b></u>. C\'est alors un ornement et non plus une articulation.
+    Le point d\'orgue peut être placé au-dessus d\'une note ou d\'un silence. Il allonge sa durée jusqu\'à ce que le musicien <u>décide</u> de s\'arrêter.
+    Le temps minimum du point d\'orgue est la durée imposée par le rythme au-dessus duquel il est placé.</string>
+
+    <string name="texteCoursReprisesDeb"><b>Les reprises</b>\n\nQuand dans une partition on croise le symbole de la reprise \"𝄇\", il faut reprendre le passage une fois depuis le symbole \"𝄆\" ou à défaut depuis le début.
+    On peut trouver aussi des cases 1 et 2 autour du symbole de la reprise. Cela signifie que les mesures sous le 1 ne sont à faire que la première fois et sous le 2 que la deuxième fois.</string>
+    <string name="texteCoursReprisesCoda"><b>La Coda</b>\n\nLa Coda suit un principe similaire à la reprise. On peut rencontrer \"D.S al Coda\", \"Dal Segno al Coda\" (ou \"D.C al Coda\", \"Da Capo al Coda\").
+        Ces termes signifient respectivement "Depuis le signe jusqu\'à la Coda" et "Depuis le début jusqu\'à la Coda". À la place de "al Coda" on peut trouver aussi "al Fine" c\'est-à-dire "jusqu\'au mot Fin".
+        Le symbole "Segno" est celui-ci \"𝄋\". Et la Coda est représentée par une croix dans un cercle. Pour renvoyer à la Coda on trouve soit le symbole de la Coda soit le terme de \"al Coda\".</string>
+    <string name="textePopupStartRythmeExoDictee"><b>Entraînement : Dictée de rythme</b>\nVous allez entendre des séquences de 3 rythmes à vous d\'appuyer sur les bons boutons et dans l\'ordre !
+    Il y aura un total de 10 séquences que vous pourrez écouter autant de fois que vous le désirez.</string>
+    <string name="textePopupEndRythmeExoDictee"><b>Fin des séquences !</b>\nLancez une autre partie et tentez d\'améliorer votre score !</string>
+    <string name="textePopupParfaitRythmeExoDictee"><b>Fin des séquences !</b>\nWoaw c\'est un score parfait ! Félicitation !</string>
+</resources>
